@@ -1,0 +1,185 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F3F3F3;
+}
+
+.parent-div{
+    background-color: #F3F3F3;
+    height: 100vh;
+    font-family:"Inter" sans-serif;
+    padding:0% 5%;
+}
+
+nav{
+    /* background-color: aqua; */
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 200px;
+    height: 50px;
+}
+
+.logo-box{
+    /* background-color: brown; */
+    height: 50px;
+    display: flex;
+    gap: 40px;
+}
+
+.menu-list{
+    /* background-color: cornflowerblue; */
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #494949;
+}
+
+#lists{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #494949;
+}
+
+#lists:hover{
+    color: #7f7f7f;
+    transition: 0.3s;
+}
+
+.lists{
+    padding: 13px;
+}
+
+#btn{
+    background-color: #E6E6E6;
+    color: #494949;
+    border: 1px solid #494949;
+    border-radius: 10px;
+    width: 180px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: #494949;
+    transition: 0.5s;
+    color:#E6E6E6 ;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.93% 0%;
+}
+
+.info-div{
+    flex: 11 450px ;
+}
+
+.heading-1{
+    font-size: 50px;
+    margin-bottom: 1.5rem;
+    max-width: 440px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 545;
+}
+
+.para-1{
+    color: #555;
+    margin-bottom: 2rem;
+    max-width: 360px;
+    font-size: 22px;
+}
+
+.btn{
+    width: 200px; 
+    background-color: #191A23;
+    color: #E6E6E6;
+    height: 50px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #E6E6E6;
+    color: black;
+    transition: 0.5s;
+    border: 1px solid #494949;
+}
+
+.main-image {
+    text-align: center;
+    position: relative;
+}
+
+ #image{
+    width: 500px;
+    height: 450px;
+    max-width: 100%;
+}
+
+.img-div{
+     height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+/* .amazon{
+    width: 90px;
+    height: 35px;
+}
+
+.dribble{
+    width: 90px;
+    height: 35px;
+}
+
+.netflix{
+    width: 90px;
+    height: 35px;
+}
+
+.zoom{
+    width: 90px;
+    height: 35px;
+}
+
+.notion{
+   width: 90px;
+    height: 35px;
+}
+
+.hubspot{
+    width: 90px;
+    height: 35px;
+} */
+
+#end-image{
+    width: 90px;
+    height: 35px;
+}
